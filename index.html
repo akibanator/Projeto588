@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Import 588.css-->
+    <link rel="stylesheet" type="text/css" href="css/588.css">
+    <!--Import Favicon-->
+    <link rel="shortcut icon" href="img/logo588pequeno.png">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>588 Burger & House</title>
+  </head>
+
+    <header>
+      <div class="navbar-fixed posicao">
+        <nav class="black">
+          <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo center"><img id="logo-navbar" src="img/logo588pequeno.png"></a>
+            <ul class="right hide-on-med-and-down bg-nav">
+              <li><a href="#quem-somos">O 588</a></li>
+              <li><a href="#eventos">Eventos</a></li>
+              <li><a href="#fotos">Galeria</a></li>
+              <li><a href="#menu">Cardápio</a></li>
+              <li><a href="#contato">Fale conosco</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <div class="overlay"></div>
+
+      <section id="sessao-video">
+        <video id="video-intro" playsinline autoplay muted loop>
+         <source src="http://588burgerhouse.com.br/stage/wp-content/uploads/2017/01/588-1.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section id="quem-somos" class="scrollspy">
+      <div class="container">
+        <div class="texto-quemsomos">
+          <h1>Sobre o 588</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+
+      </section>
+
+      <section id="eventos" class="scrollspy">
+        <div class="texto-eventos">
+          <div class="container">
+            
+          <h1 class="tamanho-letra"><span class="couvert">Couvert</span><br>Artístico</h1>
+          <h2>588</h2>
+              <div><a class="pracima" href="https://pt-br.facebook.com/pg/588burgerhouse/events/"><img src="img/facebook.png"></a></div>
+          </div>
+        </div>
+        <div class="parallax-container paratras">
+          <div class="parallax"><img src="img/microfone.png"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="instagram">
+          <!-- SnapWidget -->
+          <script src="https://snapwidget.com/js/snapwidget.js"></script>
+          <iframe src="https://snapwidget.com/embed/377658" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+        </div>
+      </section>
+
+      <section id="menu" class="scrollspy">
+        <div class="container">
+          <div class="row center">
+            <div class="col s3">
+              <ul>
+                <img src="img/burger.png">
+                <p><strong>Lanches</strong></p>
+                <br>
+                <a href="#">Baixar Menu</a>
+              </ul>
+            </div>
+            <div class="col s3">
+              <ul>
+                <img src="img/cookie.png">
+                <p><strong>Esfihas</strong></p>
+                <br>
+                <a href="#">Baixar Menu</a>
+              </ul>
+            </div>
+            <div class="col s3">
+              <ul>
+                <img src="img/ice-cream.png">
+                <p><strong>Sobremesas</strong></p>
+                <br>
+                <a href="#">Baixar Menu</a>
+              </ul>
+            </div>
+            <div class="col s3">
+              <ul>
+                <div class="img-bebida-pos">
+                  <img src="img/beer.png">
+                </div>
+                <b><strong>Bebidas</strong></b>
+                <br>
+                <div class="bebida-pos">
+                  <a href="#">Baixar Menu</a>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="blue-grey darken-4 scrollspy">
+        <h3>Contato</h3>
+          <div class="row container">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Nome</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Telefone</label>
+                </div>
+              </div>
+            </form>
+           <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">email</i>
+                  <input id="email" type="email" class="validate">
+                  <label for="email" data-error="wrong" data-success="right">Email</label>
+                </div>
+              </div>
+            </form>
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">message</i>
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Mensagem</label>
+                </div>
+              </div>
+            </form>
+            <a class="waves-effect waves-light btn botao-enviar">Enviar</a>
+          </div>
+      </section>
+
+      <section>
+        <div class="mapa">
+          <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDeROSmTVIe4C25eKAm21BDmnIbkOffE4s&q=588+Burger+House"></iframe>
+      </div>
+      </section>
+
+    </main>
+
+    <footer class="page-footer black">
+      <div class="footer-copyright">
+        <div class="container">
+          <img class="logo-footer" src="img/logo588pequeno.png"></a>
+          <div class="contato-tel"><i class="material-icons prefix">phone</i><span>(11)2893-2708</span></div>
+          <div class="frase-footer">Feito com ❤ pela Criativamente | Agência Digital de Comunicação Online</div>
+        </div>
+      </div>
+    </footer>
+  <body>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!--Parallax Inicialization-->
+    <script>   
+      $(document).ready(function(){
+        $('.parallax').parallax();
+      });
+    </script>
+    <!--Slider Inicialization-->
+    <script>
+      $(document).ready(function(){
+        $('.slider').slider();
+	});
+    </script>
+    <script>
+		$(document).ready(function(){
+		$('.scrollspy').scrollSpy();
+	});
+    </script>
+  </body>
+</html>

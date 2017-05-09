@@ -1,0 +1,237 @@
+html, body{
+  min-height: 100%;
+}
+body{
+  position: relative;
+}
+/*.overlay{
+  position: absolute;
+  width: 100%;
+  height: 103%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.7); /*dim the background*/
+}*/
+
+img #logo-navbar {
+    z-index: 1;
+    height: 9em;
+}
+
+.posicao {
+	position: relative;
+}
+
+#sessao-video {
+  /* any width or height */
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+  z-index: -10
+}
+
+#video-intro {
+  height: 100%;
+  width: 100%;
+}
+
+.botao-link a {
+	position: absolute;
+	z-index: 2;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background:rgba(0,0,0,0.5);
+    padding: .5rem;
+    transition: .6s background; 
+    top: 52%;
+    left: 49%;
+}
+
+#menu a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+.botao-link a:hover{
+  background:rgba(0,0,0,0.9);
+}
+
+#menu a:hover {
+  background: rgb(0,0,0,0.9);
+}
+
+#quem-somos {
+	clear: both;
+	position: relative;
+    height: 450px;
+}
+#quem-somos img {
+	width: 110%;
+}
+
+.parallax-container {
+  height: 500px;
+  margin: 0;
+}
+
+
+#menu {
+	margin-top: 5em;
+}
+
+#contato h3 {
+	text-align: center;
+	padding: 1.2em 0;
+}
+
+#contato {
+	color: #ffffff;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.botao-enviar {
+	margin-bottom: 5em;
+	float: right;
+}
+
+.page-footer {
+	position: relative;
+	bottom: 1.5em;
+}
+#eventos {
+	position: relative;
+}
+
+.texto-quemsomos {
+	width: 22em;
+	height: 20em;
+	padding: .8em;
+	position: absolute;
+  top: 5em;
+	left: 10%;
+	color: #fff;
+  background: rgba(0,0,0,0.5);
+  padding: .5em;
+  border-radius: 5px;
+  text-align: center;
+}
+.texto-quemsomos h1 {
+  font-size: 3em;
+}
+.texto-eventos {
+	height: 100%;
+	position: absolute;
+  background: rgba(0,0,20,0.9);
+  padding: 1.5rem;
+  width: 100%;
+  text-align: right;
+}
+.texto-eventos h1 h2 {
+  font-family: 'Pacifico', cursive;
+}
+.texto-eventos h1{
+    margin-top: 1.5em;
+  color: white;
+}
+.texto-eventos h2 {
+  color: #990000;
+}
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}
+
+.logo-footer {
+  float: left;
+  position: relative;
+  bottom: .5em;
+}
+
+.frase-footer {
+  float: right;
+  position: relative;
+  top: 3em;
+}
+
+.contato-tel {
+  margin-top: 2em;
+  position: relative;
+  left: 2em;
+}
+
+.contato-tel span {
+  margin-left: .5em;
+  position: relative;
+  bottom: .5em;
+}
+
+#menu a {
+  position: relative;
+  top: 10px;
+}
+
+.bebida-pos {
+  position: relative;
+  top: 15px;
+}
+
+#quem-somos h1 p {
+  font-family: 'Pacifico', cursive;
+}
+#menu img {
+  margin: 10px;
+}
+
+.mapa {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  bottom: 1.4em;
+}
+
+#menu a {
+    margin-bottom: 5em;
+}
+
+.tamanho-letra {
+    text-transform: uppercase;
+}
+
+.couvert {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pracima {
+    z-index: 99999;
+}
+
+.paratras {
+    z-index: -99999;
+}
+
+.bg-nav {
+    background-color: aqua;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    right: 20px;
+    z-index: -1;
+}
