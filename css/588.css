@@ -17,6 +17,11 @@ img #logo-navbar {
     height: 9em;
 }
 
+#logo-navbar {
+    position: relative;
+    top: .5em;
+}
+
 .posicao {
 	position: relative;
 }
@@ -165,7 +170,7 @@ height: 4em;
 .frase-footer {
   float: right;
   position: relative;
-  top: 3em;
+  top: 1em;
 }
 
 .contato-tel {
@@ -228,10 +233,47 @@ height: 4em;
 }
 
 .bg-nav {
-    background-color: aqua;
-    border-radius: 10px;
+    background-color: #F0F8FF;
+    border-radius: 30px;
     position: relative;
-    top: 40px;
-    right: 20px;
+    top: 3em;
+    right: 0px;
     z-index: -1;
+    padding-right: 5em;
+    padding-top: .01em;
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+}
+
+.bg-nav a {
+    position: relative;
+    left: 5em;
+    color: black;
+}
+
+bg-nav ul {
+    z-index: 999999;
+}
+
+.local {
+    position: absolute;
+    z-index: 9999;
+    margin: 1em;
+}
+
+.phone {
+    position: absolute;
+    z-index: 9999;
+    margin: 1em;
+    left: 15em;
+}
+
+.text-formato {
+    position: relative;
+    bottom: 2em;
+    line-height: 100px;
+}
+
+.contato-tel img {
+    position: relative;
+    top: .5em;
 }

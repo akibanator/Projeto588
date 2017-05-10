@@ -6,6 +6,7 @@
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!--Import 588.css-->
@@ -24,6 +25,7 @@
         <nav class="black">
           <div class="nav-wrapper container">
             <a href="#!" class="brand-logo center"><img id="logo-navbar" src="img/logo588pequeno.png"></a>
+                   
             <ul class="right hide-on-med-and-down bg-nav">
               <li><a href="#quem-somos">O 588</a></li>
               <li><a href="#eventos">Eventos</a></li>
@@ -70,7 +72,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="fotos" class="scrollspy">
         <div class="instagram">
           <!-- SnapWidget -->
           <script src="https://snapwidget.com/js/snapwidget.js"></script>
@@ -124,7 +126,8 @@
       <section id="contato" class="blue-grey darken-4 scrollspy">
         <h3>Contato</h3>
           <div class="row container">
-            <form class="col s12">
+            <form>
+            <div class="col s12">
               <div class="row">
                 <div class="input-field col s6">
                   <i class="material-icons prefix">account_circle</i>
@@ -137,8 +140,8 @@
                   <label for="icon_telephone">Telefone</label>
                 </div>
               </div>
-            </form>
-           <form class="col s12">
+            </div>
+           <div class="col s12">
               <div class="row">
                 <div class="input-field col s12">
                   <i class="material-icons prefix">email</i>
@@ -146,8 +149,8 @@
                   <label for="email" data-error="wrong" data-success="right">Email</label>
                 </div>
               </div>
-            </form>
-            <form class="col s12">
+            </div>
+            <div class="col s12">
               <div class="row">
                 <div class="input-field col s12">
                   <i class="material-icons prefix">message</i>
@@ -155,6 +158,7 @@
                   <label for="textarea1">Mensagem</label>
                 </div>
               </div>
+            </div>
             </form>
             <a class="waves-effect waves-light btn botao-enviar">Enviar</a>
           </div>
@@ -172,8 +176,8 @@
       <div class="footer-copyright">
         <div class="container">
           <img class="logo-footer" src="img/logo588pequeno.png"></a>
-          <div class="contato-tel"><i class="material-icons prefix">phone</i><span>(11)2893-2708</span></div>
-          <div class="frase-footer">Feito com ❤ pela Criativamente | Agência Digital de Comunicação Online</div>
+          <div class="contato-tel"><img src="img/phone.png"><span>(11)2893-2708</span></div>
+          <div class="frase-footer">Feito com ❤ pela Criativamente </div>
         </div>
       </div>
     </footer>
